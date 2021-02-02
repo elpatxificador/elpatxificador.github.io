@@ -16,7 +16,7 @@
       "cardReplacement": false,
       "cleanPINPassword": false,
       "automaticCreditCardPayment": true,
-      "prepaidCardTopUp": false
+      "prepaidCardTopUp": true
     },
     "insuranceOperations": {
       "editInsuranceAlias": true,
@@ -38,7 +38,7 @@
       "seeCBUAlias": true,
       "closeAccount": true,
       "payCard": true,
-      "prepaidCardTopUp": false
+      "prepaidCardTopUp": true
     }
   },
   "menuSidebarItems": [
