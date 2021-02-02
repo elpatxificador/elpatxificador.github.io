@@ -1,0 +1,109 @@
+{
+  "appVersion": {
+    "Android": {
+      "minVersion": 0,
+      "adviceVersion": 0,
+      "packageId": "com.bbva.nxt_argentina",
+      "appStoreUrl": "https://play.google.com/store/apps/details?id=com.bbva.glomo.ppe&hl=es",
+      "features": []
+    },
+    "iOS": {
+      "minVersion": "0",
+      "adviceVersion": "0",
+      "bundleId": "com.bbva.argentina-iphone",
+      "appStoreUrl": "https://itunes.apple.com/pe/app/bbva-continental-banca-m%C3%B3vil/id569453542?mt=8",
+      "features": []
+    }
+  },
+  "applications": [],
+  "termsAndConditions": [
+    {
+      "name": "ddjj_pep",
+      "id": "ls982.pdf"
+    },
+    {
+      "name": "ddjj_so",
+      "id": "ls1395.pdf"
+    },
+    {
+      "name": "tyc_deposits_latam",
+      "id": "ls1094.pdf"
+    },
+    {
+      "name": "tyc_consumer_loan_employee",
+      "id": "LS1867.pdf"
+    },
+    {
+      "name": "tyc_consumer_loan_customer",
+      "id": "LS1866.pdf"
+    },
+    {
+      "name": "debin_payment_tyc",
+      "id": "LS1870.pdf"
+    },
+    {
+      "name": "debin_payment_faq",
+      "id": "LS1872.pdf"
+    },
+    {
+      "name": "accounts_comissions",
+      "id": "comision.pdf"
+    },
+    {
+      "name": "tyc_accounts",
+      "id": "LS1871.pdf"
+    },
+    {
+      "name": "tyc_cancel_product",
+      "id": "LS1865.pdf"
+    },
+    {
+      "name": "investment_profile",
+      "id": "LS1875.pdf"
+    },
+    {
+      "name": "mutual_funds_subscription",
+      "id": "LS1873.pdf"
+    },
+    {
+      "name": "fido_tc",
+      "id": "LS1874.pdf"
+    },
+    {
+      "name": "other_banks_tyc",
+      "id": "ls1917.pdf"
+    }
+  ],
+  "menuItems": [
+    {
+      "ios": "1.1.0",
+      "android": "1.1.0",
+      "items": [
+        {
+          "id": "tokenKey",
+          "isFeatured": false
+        },
+        {
+          "id": "frenchGo",
+          "isFeatured": false
+        },
+        {
+          "id": "atm",
+          "isFeatured": false
+        },
+        {
+          "id": "frenchLine",
+          "isFeatured": false
+        },
+        {
+          "id": "about",
+          "isFeatured": false
+        }
+      ]
+    }
+  ],
+  "isRestrictiveModeON": true,
+  "rateApp": {
+    "minStars": 4
+  }
+}
