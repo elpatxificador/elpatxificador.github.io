@@ -16,7 +16,7 @@
       "cardReplacement": false,
       "cleanPINPassword": false,
       "automaticCreditCardPayment": true,
-      "prepaidCardTopUp": true
+      "prepaidCardTopUp": false
     },
     "insuranceOperations": {
       "editInsuranceAlias": true,
