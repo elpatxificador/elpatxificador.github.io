@@ -1,0 +1,250 @@
+{
+    "feature-flags": {
+      "productDetailOperations": {
+        "cardOperations": {
+          "paycard": true,
+          "summary": true,
+          "billpay": true,
+          "editName": true,
+          "phishing": false,
+          "editLimit": true,
+          "cancelCard": true,
+          "requestAdditionalCard": true,
+          "cancelAdditionalCard": false,
+          "linkAccount": true,
+          "loadBalance": false,
+          "cancelPeriodicRecharge": false,
+          "cardReplacement": false,
+          "cleanPINPassword": false,
+          "automaticCreditCardPayment": true,
+          "prepaidCardTopUp": true
+        },
+        "insuranceOperations": {
+          "editInsuranceAlias": true,
+          "cancelInsurance": true
+        },
+        "fundOperations": {
+          "subscribe": true,
+          "rescue": false
+        },
+        "accountOperations": {
+          "transfer": true,
+          "rechargeCellPhone": true,
+          "mobileTopUp": true,
+          "billPay": true,
+          "statement": true,
+          "currencyExchange": false,
+          "editAlias": true,
+          "editCBUAlias": true,
+          "seeCBUAlias": true,
+          "closeAccount": true,
+          "payCard": true,
+          "prepaidCardTopUp": false
+        }
+      },
+      "menuSidebarItems": [
+        {
+          "ios": [
+            "99.99.99"
+          ],
+          "android": [
+            "99.99.99"
+          ],
+          "items": [
+            {
+              "id": "configuration",
+              "isFeatured": [],
+              "isEnabled": [
+                "private"
+              ],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            },
+            {
+              "id": "frenchGo",
+              "isFeatured": [],
+              "isEnabled": [
+                "public",
+                "cached",
+                "private"
+              ],
+              "isHidden": []
+            },
+            {
+              "id": "atm",
+              "isFeatured": [],
+              "isEnabled": [
+                "public",
+                "cached",
+                "private"
+              ],
+              "isHidden": []
+            },
+            {
+              "id": "vouchers",
+              "isFeatured": [],
+              "isEnabled": [
+                "private"
+              ],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            },
+            {
+              "id": "frenchLine",
+              "isFeatured": [],
+              "isEnabled": [
+                "public",
+                "cached",
+                "private"
+              ],
+              "isHidden": []
+            },
+            {
+              "id": "about",
+              "isFeatured": [],
+              "isEnabled": [
+                "public",
+                "cached",
+                "private"
+              ],
+              "isHidden": []
+            },
+            {
+              "id": "tChange",
+              "isFeatured": [],
+              "isEnabled": [
+                "private"
+              ],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            },
+            {
+              "id": "contractProductSection",
+              "isFeatured": [],
+              "isEnabled": [
+                "private"
+              ],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            },
+            {
+              "id": "digitalToken",
+              "isFeatured": [],
+              "isEnabled": [
+                "cached"
+              ],
+              "isHidden": [
+                "public",
+                "private"
+              ]
+            },
+            {
+              "id": "contactsAgenda",
+              "isFeatured": [],
+              "isEnabled": [
+                "private"
+              ],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            },
+            {
+              "id": "checksDeposits",
+              "isFeatured": [],
+              "isEnabled": [],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            },
+            {
+              "id": "debinPayments",
+              "isFeatured": [],
+              "isEnabled": [
+                "private"
+              ],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            },
+            {
+              "id": "modoQrPayment",
+              "isFeatured": [],
+              "isEnabled": [
+                "private"
+              ],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            },
+            {
+              "id": "billPayments",
+              "isFeatured": [],
+              "isEnabled": [
+                "private"
+              ],
+              "isHidden": [
+                "public",
+                "cached"
+              ]
+            }
+          ]
+        }
+      ],
+      "menuSidebarSettings": {
+        "operationalLimits": false,
+        "notificationsSettings": true,
+        "mobileTransferPeerToPeerInfo": true,
+        "channelSettings": true,
+        "securitySettings": true,
+        "settingsWearables": true,
+        "securitytips": true,
+        "modoConfiguration": true
+      },
+      "featureFlagCollection": {
+        "glomo.analytics.transfer": {
+          "key": "glomo.analytics.transfer",
+          "value": true
+        },
+        "glomo.analytics.transfer.errors": {
+          "key": "glomo.analytics.transfer.errors",
+          "value": true
+        },
+        "glomo.analytics.mobileTopUp": {
+          "key": "glomo.analytics.mobileTopUp",
+          "value": true
+        },
+        "glomo.analytics.mobileTopUp.errors": {
+          "key": "glomo.analytics.mobileTopUp.errors",
+          "value": true
+        },
+        "glomo.analytics.operationalLimits": {
+          "key": "glomo.analytics.operationalLimits",
+          "value": true
+        },
+        "glomo.analytics.exchangeRate": {
+          "key": "glomo.analytics.exchangeRate",
+          "value": true
+        },
+        "glomo.analytics.modo": {
+          "key": "glomo.analytics.modo",
+          "value": true
+        },
+        "glomo.analytics.billPayments": {
+          "key": "glomo.analytics.billPayments",
+          "value": true
+        }
+      }
+    }
+  }
