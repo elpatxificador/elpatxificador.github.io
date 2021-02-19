@@ -45,94 +45,158 @@
     {
       "ios": [
         "99.99.99"
-        ],
+      ],
       "android": [
         "99.99.99"
-        ],
+      ],
       "items": [
         {
           "id": "configuration",
           "isFeatured": [],
-          "isEnabled": ["private"],
-          "isHidden": ["public", "cached"]
+          "isEnabled": [
+            "private"
+          ],
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         },
         {
           "id": "frenchGo",
           "isFeatured": [],
-          "isEnabled": ["public", "cached", "private"],
+          "isEnabled": [
+            "public",
+            "cached",
+            "private"
+          ],
           "isHidden": []
         },
         {
           "id": "atm",
           "isFeatured": [],
-          "isEnabled": ["public", "cached", "private"],
+          "isEnabled": [
+            "public",
+            "cached",
+            "private"
+          ],
           "isHidden": []
         },
         {
           "id": "vouchers",
           "isFeatured": [],
-          "isEnabled": ["private"],
-          "isHidden": ["public", "cached"]
+          "isEnabled": [
+            "private"
+          ],
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         },
         {
           "id": "frenchLine",
           "isFeatured": [],
-          "isEnabled": ["public", "cached", "private"],
+          "isEnabled": [
+            "public",
+            "cached",
+            "private"
+          ],
           "isHidden": []
         },
         {
           "id": "about",
           "isFeatured": [],
-          "isEnabled": ["public", "cached", "private"],
+          "isEnabled": [
+            "public",
+            "cached",
+            "private"
+          ],
           "isHidden": []
         },
         {
           "id": "tChange",
           "isFeatured": [],
-          "isEnabled": ["private"],
-          "isHidden": ["public", "cached"]
+          "isEnabled": [
+            "private"
+          ],
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         },
         {
           "id": "contractProductSection",
           "isFeatured": [],
-          "isEnabled": ["private"],
-          "isHidden": ["public", "cached"]
+          "isEnabled": [
+            "private"
+          ],
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         },
         {
           "id": "digitalToken",
           "isFeatured": [],
-          "isEnabled": ["cached"],
-          "isHidden": ["public", "private"]
+          "isEnabled": [
+            "cached"
+          ],
+          "isHidden": [
+            "public",
+            "private"
+          ]
         },
         {
           "id": "contactsAgenda",
           "isFeatured": [],
-          "isEnabled": ["private"],
-          "isHidden": ["public", "cached"]
+          "isEnabled": [
+            "private"
+          ],
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         },
         {
           "id": "checksDeposits",
           "isFeatured": [],
           "isEnabled": [],
-          "isHidden": ["public", "cached"]
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         },
         {
           "id": "debinPayments",
           "isFeatured": [],
-          "isEnabled": ["private"],
-          "isHidden": ["public", "cached"]
+          "isEnabled": [
+            "private"
+          ],
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         },
         {
           "id": "modoQrPayment",
           "isFeatured": [],
-          "isEnabled": ["private"],
-          "isHidden": ["public", "cached"]
+          "isEnabled": [
+            "private"
+          ],
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         },
         {
           "id": "billPayments",
           "isFeatured": [],
-          "isEnabled": ["private"],
-          "isHidden": ["public", "cached"]
+          "isEnabled": [
+            "private"
+          ],
+          "isHidden": [
+            "public",
+            "cached"
+          ]
         }
       ]
     }
@@ -179,6 +243,10 @@
     "glomo.analytics.billPayments": {
       "key": "glomo.analytics.billPayments",
       "value": true
+    },
+    "glomo.analytics.debitOperationalLimitsConfiguration": {
+      "key": "glomo.analytics.debitOperationalLimitsConfiguration",
+      "value": false
     }
   }
 }
