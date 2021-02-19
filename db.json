@@ -246,7 +246,7 @@
     },
     "glomo.analytics.debitOperationalLimitsConfiguration": {
       "key": "glomo.analytics.debitOperationalLimitsConfiguration",
-      "value": false
+      "value": true
     }
   }
 }
