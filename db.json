@@ -2,7 +2,6 @@
   "productDetailOperations": {
     "cardOperations": {
       "paycard": true,
-      "summary": true,
       "billpay": true,
       "editName": true,
       "phishing": false,
@@ -10,7 +9,6 @@
       "cancelCard": true,
       "requestAdditionalCard": true,
       "cancelAdditionalCard": false,
-      "linkAccount": true,
       "loadBalance": false,
       "cancelPeriodicRecharge": false,
       "cardReplacement": false,
@@ -27,7 +25,6 @@
       "rescue": false
     },
     "accountOperations": {
-      "transfer": true,
       "rechargeCellPhone": true,
       "mobileTopUp": true,
       "billPay": true,
